@@ -14,5 +14,11 @@ describe("Food", function(){
     assert.equal(30, food1.energy)
  });
 
+ it('should not poisonous', function(){
+  assert.equal(false, food1.poisonous)//can we use?
+ });
+ 
+
+
 
 });
