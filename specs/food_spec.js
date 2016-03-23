@@ -10,5 +10,9 @@ describe("Food", function(){
    assert.equal('shrub', food1.type)
  });
 
+ it("should have an energy value", function(){
+    assert.equal(30, food1.energy)
+ });
+
 
 });
