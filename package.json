@@ -1,0 +1,14 @@
+{
+  "name": "hero_play",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hero_play.js",
+  "scripts": {
+    "test": "mocha specs"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^2.4.5"
+  }
+}
