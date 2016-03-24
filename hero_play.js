@@ -20,9 +20,17 @@ hero.prototype ={
         {this.health += (food.energy * 1.5)
        }else{
         this.health += food.energy
+        }
       }
     }
-  }
+
+  // hurt: function(villian){
+  //   if(villian.attack){
+  //     this.health -= 30}else{
+  //       this.health
+  //     }
+  //   }
+  // }  
 };
 
 module.exports = hero
